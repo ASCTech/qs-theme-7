@@ -1,0 +1,15 @@
+name = Arts and Sciences Quicksites
+description = Drupal 7 Configurable ASC Theme.
+version = 7.x-1.1
+core = 7.x
+
+stylesheets[all][] = css/blueprint/screen.css
+stylesheets[all][] = css/blueprint/print.css
+conditional-stylesheets[if IE][all][] = css/blueprint/ie.css
+stylesheets[all][] = css/quicksites.css
+stylesheets[all][] = css/navbar.css
+stylesheets[print][] = css/print.css
+
+regions[before_content] = Content Top
+regions[content] = Content Middle
+regions[after_content] = Content Bottom
